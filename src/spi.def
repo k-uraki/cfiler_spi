@@ -1,0 +1,3 @@
+LIBRARY spi.pyd
+EXPORTS
+    PyInit_spi
