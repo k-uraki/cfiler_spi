@@ -15,8 +15,12 @@ REM SET PYTHON_ROOT=%USERPROFILE%\AppData\Local\Programs\Python\Python35-32
 REM SET PYTHON_LIB_FILENAME=python35.lib
 
 REM Python 3.7
-SET PYTHON_ROOT=%USERPROFILE%\AppData\Local\Programs\Python\Python37-32
-SET PYTHON_LIB_FILENAME=python37.lib
+REM SET PYTHON_ROOT=%USERPROFILE%\AppData\Local\Programs\Python\Python37-32
+REM SET PYTHON_LIB_FILENAME=python37.lib
+
+REM Python 3.8
+SET PYTHON_ROOT=C:\Python38-32
+SET PYTHON_LIB_FILENAME=python38.lib
 
 cl /D "WIN32" /D "NDEBUG" /D "_ATL_MIN_CRT" /D "_UNICODE" /D "UNICODE" /FD /EHsc /MT /GR- /c /TP /I%PYTHON_ROOT%\include spi.cpp /Fospi.obj
 
